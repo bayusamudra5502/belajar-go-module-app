@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/bayusamudra5502/belajar-go-module/halo"
+	"github.com/bayusamudra5502/belajar-go-module/v2/halo"
 )
 
 func main(){
-	halo.HaloDunia()
+	halo.HaloDunia("Haii")
 	fmt.Println(halo.Tambahkan(1,2))
 }
